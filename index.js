@@ -25,6 +25,7 @@ function rolldice()
 
 function reset()
 {
+    gnum1=gnum2=0;
     document.querySelector("#refresh").innerHTML = "Roll Dice to Start";
     document.querySelector("#player1").innerHTML = "Player 1 score : 0";
     document.querySelector("#player2").innerHTML = "Player 2 score : 0";
